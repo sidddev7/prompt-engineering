@@ -35,3 +35,10 @@
 - **Hallusination** : - model makes statements that sound plausible but are not true
  - [example](https://prnt.sc/b82jMYYyyRTy)
  - **Reduce Hallusination** by asking the model to first find relevent information and then answer the question based on that relevent information
+
+## Iterative Prompt development
+- [example](https://prnt.sc/58gecEMghzHf)
+  - try different versions of prompt [example](https://prnt.sc/9JYbOhX6nQV-)
+  - give more clearer instrcutions to the model [example](https://prnt.sc/NPFUBL-ULXkX)
+  - [example](https://prnt.sc/Kl4EBVrdChfD)
+  - https://prnt.sc/muYNOOv7Qrx_
