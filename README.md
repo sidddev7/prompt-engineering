@@ -41,4 +41,4 @@
   - try different versions of prompt [example](https://prnt.sc/9JYbOhX6nQV-)
   - give more clearer instrcutions to the model [example](https://prnt.sc/NPFUBL-ULXkX)
   - [example](https://prnt.sc/Kl4EBVrdChfD)
-  - https://prnt.sc/muYNOOv7Qrx_
+  - [example 1](https://prnt.sc/muYNOOv7Qrx_)
