@@ -42,3 +42,16 @@
   - give more clearer instrcutions to the model [example](https://prnt.sc/NPFUBL-ULXkX)
   - [example](https://prnt.sc/Kl4EBVrdChfD)
   - [example 1](https://prnt.sc/muYNOOv7Qrx_)
+
+## Inferred prompting
+
+- Infer the model to extract sentiments, mood, details from the prompt or reviews and so on
+  - [example](https://prnt.sc/537Ni9IGdG7G)
+  - [example](https://prnt.sc/rEIAlM3ygp5o)
+  - [example](https://prnt.sc/RUAkLUIGiUTF)
+  - [example](https://prnt.sc/DTQH6I_Cxc14)
+  - [example](https://prnt.sc/fcUYW9APBnKq)
+  - [example](https://prnt.sc/650xQFVFFM9t)
+  - [story](https://prnt.sc/c5DuGvunZjZv) [prompt](https://prnt.sc/dZ9N992dAKOZ) [response](https://prnt.sc/c6OhQWwiZvSB) 
+  - [example](https://prnt.sc/9Q0AbVH6_b-o)
+  - 
