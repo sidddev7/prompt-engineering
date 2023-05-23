@@ -55,3 +55,24 @@
   - [story](https://prnt.sc/c5DuGvunZjZv) [prompt](https://prnt.sc/dZ9N992dAKOZ) [response](https://prnt.sc/c6OhQWwiZvSB) 
   - [example](https://prnt.sc/9Q0AbVH6_b-o)
   - 
+
+## Transforming 
+- [Translate](https://prnt.sc/b4SU-FIk1gj-)
+- [Identify the language](https://prnt.sc/wasOAdB6bBYm)
+- [translate to multiple](https://prnt.sc/Vz1l2nIAoAxd)
+- [Formal and Informal](https://prnt.sc/nKCbSVz0Bqun)
+- [Slang to business letter](https://prnt.sc/ucBZumQHyBB7)
+- [JSON to HTML table](https://prnt.sc/5oTeLVgo-_rZ) 
+  - [response](https://prnt.sc/dhW-0f8IyhGG)
+- [Proof reading and correcting](https://prnt.sc/cQclwWDhO4D7)
+  - [response](https://prnt.sc/zYRKFjruh-An)
+
+## Expanding
+- Generate an email based on the prompt and other information
+  - [SS-1](https://prnt.sc/IbCAnly9X0Sv)
+  - [SS-2](https://prnt.sc/wP1lBZofEe-u)
+  - [SS-3](https://prnt.sc/L-AAUVn0H2hs)
+
+## Temperature
+- [explaination](https://prnt.sc/9BO26Z_K19rL)
+
