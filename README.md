@@ -76,3 +76,66 @@
 ## Temperature
 - [explaination](https://prnt.sc/9BO26Z_K19rL)
 
+## Chat Workflow
+- [Workflow](https://prnt.sc/S501v1o17lXq)
+- [Types of roles](https://prnt.sc/jTp3WClTeybM)
+- [Example 1](https://prnt.sc/YMK8G3nDGDEv)
+- [Roles example](https://prnt.sc/nDKSLVMkja6T)
+- [Contexts](https://prnt.sc/Y3E8bmrcQhQi)
+- ### Example
+  - [SS-1](https://prnt.sc/1lHtuEXq2NDx)
+  - [SS-2](https://prnt.sc/txnIO1dqVwmp)
+  - [Chatting](https://prnt.sc/8Xbpfjk7JTKG)
+
+## Code
+```python
+import panel as pn  # GUI
+pn.extension()
+
+panels = [] # collect display 
+
+context = [ {'role':'system', 'content':"""
+You are OrderBot, an automated service to collect orders for a pizza restaurant. \
+You first greet the customer, then collects the order, \
+and then asks if it's a pickup or delivery. \
+You wait to collect the entire order, then summarize it and check for a final \
+time if the customer wants to add anything else. \
+If it's a delivery, you ask for an address. \
+Finally you collect the payment.\
+Make sure to clarify all options, extras and sizes to uniquely \
+identify the item from the menu.\
+You respond in a short, very conversational friendly style. \
+The menu includes \
+pepperoni pizza  12.95, 10.00, 7.00 \
+cheese pizza   10.95, 9.25, 6.50 \
+eggplant pizza   11.95, 9.75, 6.75 \
+fries 4.50, 3.50 \
+greek salad 7.25 \
+Toppings: \
+extra cheese 2.00, \
+mushrooms 1.50 \
+sausage 3.00 \
+canadian bacon 3.50 \
+AI sauce 1.50 \
+peppers 1.00 \
+Drinks: \
+coke 3.00, 2.00, 1.00 \
+sprite 3.00, 2.00, 1.00 \
+bottled water 5.00 \
+"""} ]  # accumulate messages
+
+
+inp = pn.widgets.TextInput(value="Hi", placeholder='Enter text here…')
+button_conversation = pn.widgets.Button(name="Chat!")
+
+interactive_conversation = pn.bind(collect_messages, button_conversation)
+
+dashboard = pn.Column(
+    inp,
+    pn.Row(button_conversation),
+    pn.panel(interactive_conversation, loading_indicator=True, height=300),
+)
+
+dashboard
+```
+
